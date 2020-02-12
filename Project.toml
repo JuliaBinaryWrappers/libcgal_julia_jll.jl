@@ -1,6 +1,6 @@
 name = "libcgal_julia_jll"
 uuid = "e9ad47b2-a301-5fb7-a0bd-6eece649b37c"
-version = "0.6.0+0"
+version = "0.6.1+0"
 
 [deps]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
