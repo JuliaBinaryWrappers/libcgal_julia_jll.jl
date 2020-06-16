@@ -1,6 +1,6 @@
 name = "libcgal_julia_jll"
 uuid = "e9ad47b2-a301-5fb7-a0bd-6eece649b37c"
-version = "0.9.1+0"
+version = "0.10.1+0"
 
 [deps]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
@@ -10,3 +10,4 @@ CGAL_jll = "8fcd9439-76b0-55f4-a525-bad0597c05d8"
 
 [compat]
 julia = "1.0"
+libcxxwrap_julia_jll = "=0.7.1"
