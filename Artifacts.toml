@@ -1,66 +1,196 @@
 [[libcgal_julia]]
 arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "aa358998215bff8021eeafc13c2aea704e1f94e1"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "cece0319187fa05cd45d3f028fb64c87e06331a5"
 libc = "glibc"
 os = "linux"
 
     [[libcgal_julia.download]]
-    sha256 = "2b30c3eeeb8d14ffd9c08c7dbdd9b465062addb9cc5a60697536b50f3149edd0"
-    url = "https://github.com/JuliaBinaryWrappers/libcgal_julia_jll.jl/releases/download/libcgal_julia-v0.15.0+0/libcgal_julia.v0.15.0.aarch64-linux-gnu-cxx11.tar.gz"
+    sha256 = "f5e1d1a0ad821f1e84226b8a6bb20ae99839cca8f6380d3bd173bebea7c62da1"
+    url = "https://github.com/JuliaBinaryWrappers/libcgal_julia_jll.jl/releases/download/libcgal_julia-v0.16.3+0/libcgal_julia.v0.16.3.aarch64-linux-gnu-cxx03.tar.gz"
 [[libcgal_julia]]
-arch = "i686"
+arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "d583ff87a873953acc2ee2bf8ed4f00e610ce21f"
+git-tree-sha1 = "8e2ff7512d4d308a4000ed4a02fc7cc2b4c3380a"
 libc = "glibc"
 os = "linux"
 
     [[libcgal_julia.download]]
-    sha256 = "33bc381463493cc86eb53ff5f7865a2bb2624ce39fa4cd16a333bb870348e0b7"
-    url = "https://github.com/JuliaBinaryWrappers/libcgal_julia_jll.jl/releases/download/libcgal_julia-v0.15.0+0/libcgal_julia.v0.15.0.i686-linux-gnu-cxx11.tar.gz"
+    sha256 = "5ed62caae679dc76232ab97de1ee064a4a054b207bbac6ea4bfd5f2df7d6f720"
+    url = "https://github.com/JuliaBinaryWrappers/libcgal_julia_jll.jl/releases/download/libcgal_julia-v0.16.3+0/libcgal_julia.v0.16.3.aarch64-linux-gnu-cxx11.tar.gz"
+[[libcgal_julia]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "f445a8aacef8392df13109a52b7a9f889a421b0f"
+libc = "musl"
+os = "linux"
+
+    [[libcgal_julia.download]]
+    sha256 = "12efc1a4b0496c5525222163c46f6d38d8ee348cfd1e4eccbc78b3baafc9b9c6"
+    url = "https://github.com/JuliaBinaryWrappers/libcgal_julia_jll.jl/releases/download/libcgal_julia-v0.16.3+0/libcgal_julia.v0.16.3.aarch64-linux-musl-cxx03.tar.gz"
+[[libcgal_julia]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "b4f397d6e8ee3247aceaf1816f23c8ba0bffde56"
+libc = "musl"
+os = "linux"
+
+    [[libcgal_julia.download]]
+    sha256 = "8f22b6967c1fe68dcd4540d777033ac7d0e780f26c8dddb0654ee591cafb64a1"
+    url = "https://github.com/JuliaBinaryWrappers/libcgal_julia_jll.jl/releases/download/libcgal_julia-v0.16.3+0/libcgal_julia.v0.16.3.aarch64-linux-musl-cxx11.tar.gz"
+[[libcgal_julia]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "0d65f30e9b4f2b562199a40289457ec26214765c"
+libc = "glibc"
+os = "linux"
+
+    [[libcgal_julia.download]]
+    sha256 = "4c6d828a5ff204505676f8cda7dbd02c3b36754d789bafc315ce37ebfa8e096f"
+    url = "https://github.com/JuliaBinaryWrappers/libcgal_julia_jll.jl/releases/download/libcgal_julia-v0.16.3+0/libcgal_julia.v0.16.3.armv7l-linux-gnueabihf-cxx03.tar.gz"
+[[libcgal_julia]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "8c946cfc985299f70656349e677cde65390adbeb"
+libc = "glibc"
+os = "linux"
+
+    [[libcgal_julia.download]]
+    sha256 = "57480d83a1fc8620deefb2c2a5106518791abdf51f238a0349d8b880c92989ad"
+    url = "https://github.com/JuliaBinaryWrappers/libcgal_julia_jll.jl/releases/download/libcgal_julia-v0.16.3+0/libcgal_julia.v0.16.3.armv7l-linux-gnueabihf-cxx11.tar.gz"
+[[libcgal_julia]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "cf7d692ed6687404024a24ace3fc2b4133ae9780"
+libc = "musl"
+os = "linux"
+
+    [[libcgal_julia.download]]
+    sha256 = "0a2185c0b3f0cec37970d5ab3c5c3d63737974192a0f7bc3aedada85a4637b9f"
+    url = "https://github.com/JuliaBinaryWrappers/libcgal_julia_jll.jl/releases/download/libcgal_julia-v0.16.3+0/libcgal_julia.v0.16.3.armv7l-linux-musleabihf-cxx03.tar.gz"
+[[libcgal_julia]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "34e83baf8f00b75710f0a2911c30dd95e0e0956f"
+libc = "musl"
+os = "linux"
+
+    [[libcgal_julia.download]]
+    sha256 = "85f13bbfdfd5fb38cdf1d42a11dabf53a575d3871911d8b1f970c094473413f4"
+    url = "https://github.com/JuliaBinaryWrappers/libcgal_julia_jll.jl/releases/download/libcgal_julia-v0.16.3+0/libcgal_julia.v0.16.3.armv7l-linux-musleabihf-cxx11.tar.gz"
+[[libcgal_julia]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "3817c171fe3cbdb074cde416bd9ff76bead001e5"
+libc = "glibc"
+os = "linux"
+
+    [[libcgal_julia.download]]
+    sha256 = "5983ee9572eddb496a001030c5235aa6e7911ca241a61fdf3c634bee2f011bc0"
+    url = "https://github.com/JuliaBinaryWrappers/libcgal_julia_jll.jl/releases/download/libcgal_julia-v0.16.3+0/libcgal_julia.v0.16.3.i686-linux-gnu-cxx03.tar.gz"
 [[libcgal_julia]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "a28077999779d7b3736951fe765c325edabf0f42"
+git-tree-sha1 = "43237ef88dc1bfafa25143dbb4aef436f5132d72"
+libc = "glibc"
+os = "linux"
+
+    [[libcgal_julia.download]]
+    sha256 = "4a72bbf7feaebcccaaf7f0a41fa6bb3017d13036a37066eed8b2a78aa1e07a05"
+    url = "https://github.com/JuliaBinaryWrappers/libcgal_julia_jll.jl/releases/download/libcgal_julia-v0.16.3+0/libcgal_julia.v0.16.3.i686-linux-gnu-cxx11.tar.gz"
+[[libcgal_julia]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "9d0a8fdcfbcf866087ace303d3690428cb17ca24"
 os = "windows"
 
     [[libcgal_julia.download]]
-    sha256 = "c2afe6cb9dd5aad13621fba089a5ee3b2abf8c43869e447305bdfddeb7291531"
-    url = "https://github.com/JuliaBinaryWrappers/libcgal_julia_jll.jl/releases/download/libcgal_julia-v0.15.0+0/libcgal_julia.v0.15.0.i686-w64-mingw32-cxx11.tar.gz"
+    sha256 = "ba7d8e0ec1d4d7d986f39999665c54f6c3ff684201bcfa3df5bfebe0a3f48f2b"
+    url = "https://github.com/JuliaBinaryWrappers/libcgal_julia_jll.jl/releases/download/libcgal_julia-v0.16.3+0/libcgal_julia.v0.16.3.i686-w64-mingw32-cxx03.tar.gz"
+[[libcgal_julia]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "1e74cf533d306775895a016634b32e6f1d82e5e4"
+os = "windows"
+
+    [[libcgal_julia.download]]
+    sha256 = "1a20dea1ad0b76341d405b84d3eb7b4e7d2c5cabe853605a2fddb1f30c3aee6e"
+    url = "https://github.com/JuliaBinaryWrappers/libcgal_julia_jll.jl/releases/download/libcgal_julia-v0.16.3+0/libcgal_julia.v0.16.3.i686-w64-mingw32-cxx11.tar.gz"
 [[libcgal_julia]]
 arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "8730e205da7f801b0eaeab199b65578f9367fddd"
+git-tree-sha1 = "ccba61326d26306cfa703057db57291d3ba930bb"
 os = "macos"
 
     [[libcgal_julia.download]]
-    sha256 = "47e29566d244411f758b852c25bbaee2b2e1dfd9fc19e89700aecc246b613ea7"
-    url = "https://github.com/JuliaBinaryWrappers/libcgal_julia_jll.jl/releases/download/libcgal_julia-v0.15.0+0/libcgal_julia.v0.15.0.x86_64-apple-darwin14-cxx11.tar.gz"
+    sha256 = "f103f0d79fa0d5be378df5a8ea1c691e92f936ac54c63adc305c0d7edc8db269"
+    url = "https://github.com/JuliaBinaryWrappers/libcgal_julia_jll.jl/releases/download/libcgal_julia-v0.16.3+0/libcgal_julia.v0.16.3.x86_64-apple-darwin.tar.gz"
 [[libcgal_julia]]
 arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "27a7a2de46d9e502696cc8df7da3927db1c1f4b9"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "a209e29bfa37fbd9b57c4767b4f41eb8691c9414"
 libc = "glibc"
 os = "linux"
 
     [[libcgal_julia.download]]
-    sha256 = "01ff576cc64d748daf97034b2c303f8320730f6e118d27cb018a0359abb322dc"
-    url = "https://github.com/JuliaBinaryWrappers/libcgal_julia_jll.jl/releases/download/libcgal_julia-v0.15.0+0/libcgal_julia.v0.15.0.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "8e3ea44185db7b1569783dce1638d36e6f67130d2006894456be65b50e879f29"
+    url = "https://github.com/JuliaBinaryWrappers/libcgal_julia_jll.jl/releases/download/libcgal_julia-v0.16.3+0/libcgal_julia.v0.16.3.x86_64-linux-gnu-cxx03.tar.gz"
 [[libcgal_julia]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "f735025ab2b0af789a755941d46192ef4ef2a02f"
+git-tree-sha1 = "1f38ff7237e881a088982c08bae6b57e08e7ee24"
+libc = "glibc"
+os = "linux"
+
+    [[libcgal_julia.download]]
+    sha256 = "b181dc9f5e6c92077ee29afc1cb5e0a58d7881dea3cec859618d0d63d0cafb79"
+    url = "https://github.com/JuliaBinaryWrappers/libcgal_julia_jll.jl/releases/download/libcgal_julia-v0.16.3+0/libcgal_julia.v0.16.3.x86_64-linux-gnu-cxx11.tar.gz"
+[[libcgal_julia]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "d17b04197f39999404d32bcb7ad7fb72f314929f"
+libc = "musl"
+os = "linux"
+
+    [[libcgal_julia.download]]
+    sha256 = "ec33c37fceccfbb404ae56d1839a51210ca3eff7d143f5fc20449c071af93a2e"
+    url = "https://github.com/JuliaBinaryWrappers/libcgal_julia_jll.jl/releases/download/libcgal_julia-v0.16.3+0/libcgal_julia.v0.16.3.x86_64-linux-musl-cxx03.tar.gz"
+[[libcgal_julia]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "9f747a90952242356c46da8383894864ed6fd74c"
+libc = "musl"
+os = "linux"
+
+    [[libcgal_julia.download]]
+    sha256 = "ff1655df589c7c476160b6d94d82c760f2d99078409aaa37274797093bb00202"
+    url = "https://github.com/JuliaBinaryWrappers/libcgal_julia_jll.jl/releases/download/libcgal_julia-v0.16.3+0/libcgal_julia.v0.16.3.x86_64-linux-musl-cxx11.tar.gz"
+[[libcgal_julia]]
+arch = "x86_64"
+git-tree-sha1 = "b056441e13590bb2bc9b6326a9036240f672f61e"
 os = "freebsd"
 
     [[libcgal_julia.download]]
-    sha256 = "87fb247e0aa5332e58a38230d726b831a6f1dae43b23ebee7626d7fa20290450"
-    url = "https://github.com/JuliaBinaryWrappers/libcgal_julia_jll.jl/releases/download/libcgal_julia-v0.15.0+0/libcgal_julia.v0.15.0.x86_64-unknown-freebsd11.1-cxx11.tar.gz"
+    sha256 = "2c0f88c93975d8bc7f26912fab06e99ca03e76fd3081a2e88f6bcf5ced9dd884"
+    url = "https://github.com/JuliaBinaryWrappers/libcgal_julia_jll.jl/releases/download/libcgal_julia-v0.16.3+0/libcgal_julia.v0.16.3.x86_64-unknown-freebsd.tar.gz"
 [[libcgal_julia]]
 arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "554656cdc6a63a2f3a557d17da9e4b2c5752970a"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "5e262eaf01b5d2a1feb31b9ccbe2b13b0bdae030"
 os = "windows"
 
     [[libcgal_julia.download]]
-    sha256 = "b58b394a31b5b8db93d6018f32311843b3f5fd8ab9d41845c6bd6e5b786a8803"
-    url = "https://github.com/JuliaBinaryWrappers/libcgal_julia_jll.jl/releases/download/libcgal_julia-v0.15.0+0/libcgal_julia.v0.15.0.x86_64-w64-mingw32-cxx11.tar.gz"
+    sha256 = "895bf9845cc17fef8daa9a02437d9bbba16ef47626fafb66efd35ad4d5ba4363"
+    url = "https://github.com/JuliaBinaryWrappers/libcgal_julia_jll.jl/releases/download/libcgal_julia-v0.16.3+0/libcgal_julia.v0.16.3.x86_64-w64-mingw32-cxx03.tar.gz"
+[[libcgal_julia]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "88ea4ffbfcb4497811c62a551769e64f0656af07"
+os = "windows"
+
+    [[libcgal_julia.download]]
+    sha256 = "ce47f6545b4947faddb18727022175fdf1a2c4d8122a14ad07fb4ec8880eaa3e"
+    url = "https://github.com/JuliaBinaryWrappers/libcgal_julia_jll.jl/releases/download/libcgal_julia-v0.16.3+0/libcgal_julia.v0.16.3.x86_64-w64-mingw32-cxx11.tar.gz"
