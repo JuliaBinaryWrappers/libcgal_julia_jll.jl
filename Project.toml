@@ -1,6 +1,6 @@
 name = "libcgal_julia_jll"
 uuid = "e9ad47b2-a301-5fb7-a0bd-6eece649b37c"
-version = "0.16.4+0"
+version = "0.16.5+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
@@ -12,5 +12,5 @@ Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 
 [compat]
 JLLWrappers = "1.1.0"
-julia = "1.4"
+julia = "1.5"
 CGAL_jll = "=5.2.0"
