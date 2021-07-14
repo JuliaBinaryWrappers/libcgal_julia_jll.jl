@@ -10,13 +10,13 @@ function __init__()
     JLLWrappers.@generate_init_header(CGAL_jll, libcxxwrap_julia_jll)
     JLLWrappers.@init_library_product(
         libcgal_julia_exact,
-        "lib/libcgal_julia_exact.0.16.0.dylib",
+        "lib/libcgal_julia_exact.0.17.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libcgal_julia_inexact,
-        "lib/libcgal_julia_inexact.0.16.0.dylib",
+        "lib/libcgal_julia_inexact.0.17.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
